@@ -34,9 +34,9 @@
                 </div>                  
                 <div class="flex justify-center items-center">
                     <figure class="bg-gray-100 rounded overflow-hidden shadow-md">
-                        <img src="../img/kamar-executive.jpg" alt="Kamar Executive" class="object-cover" width="400" height="267">
+                        <img src="../img/kamar-executive.jpg" alt="Kamar Family" class="object-cover" width="400" height="267">
                         <figcaption class="text-primary font-semibold m-4">
-                            Kamar Executive
+                            Kamar Family
                         </figcaption>
                     </figure>
                 </div>  

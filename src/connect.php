@@ -4,11 +4,11 @@
  * HOST='localhost'
  * USER='ROOT'
  * PASSWORD=''
- * DATABASE='hotel_jwd'
+ * DATABASE='hotal_jwd'
  **/
 
 // Create connection
-$conn = new mysqli('localhost', 'root', '', 'hotel_jwd');
+$conn = new mysqli('localhost', 'root', '', 'hotal_jwd');
 
 // Check connection
 if (!$conn) {

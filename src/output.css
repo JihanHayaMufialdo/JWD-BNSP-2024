@@ -621,6 +621,10 @@ video {
   display: table;
 }
 
+.hidden {
+  display: none;
+}
+
 .w-1\/3 {
   width: 33.333333%;
 }
