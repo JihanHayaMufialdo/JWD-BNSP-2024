@@ -12,22 +12,22 @@
             <nav class="w-full fixed top-0 left-0 z-50"> 
                 <div class="text-primary font-bold">
                     <ul class="flex justify-star bg-blue-200 px-16">
-                        <li class="hover:bg-blue-300 active:bg-blue-400 p-4">
+                        <li class="hover:bg-blue-300 active:bg-blue-400 p-6">
                             <a href="../views/produk.php">
                                 Produk
                             </a>
                         </li>
-                        <li class="hover:bg-blue-300 active:bg-blue-400 p-4">
+                        <li class="hover:bg-blue-300 active:bg-blue-400 p-6">
                             <a href="../views/daftar-harga.php">
                                 Daftar Harga
                             </a>
                         </li>
-                        <li class="hover:bg-blue-300 active:bg-blue-400 p-4">
+                        <li class="hover:bg-blue-300 active:bg-blue-400 p-6">
                             <a href="../views/tentang-kami.php">
                                 Tentang Kami
                             </a>
                         </li>
-                        <li class="hover:bg-blue-300 active:bg-blue-400 p-4">
+                        <li class="hover:bg-blue-300 active:bg-blue-400 p-6">
                             <a href="../views/pesan-kamar.php">
                                 Pesan Kamar
                             </a>

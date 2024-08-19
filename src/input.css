@@ -13,3 +13,7 @@
 .table-border{
     @apply border border-blue-950 py-4 px-10;
 }
+
+.text-box {
+    @apply mt-2 rounded border;
+  }
