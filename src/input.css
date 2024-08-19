@@ -2,18 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-.text-primary{
-    @apply text-blue-950;
+.text-primary {
+  @apply text-blue-950;
 }
 
-.title{
-    @apply text-center text-primary text-3xl font-bold uppercase mb-16;
+.title {
+  @apply text-primary mb-16 text-center text-3xl font-bold uppercase;
 }
 
-.table-border{
-    @apply border border-blue-950 py-4 px-10;
+.table-border {
+  @apply border border-blue-950 px-10 py-4;
 }
 
 .text-box {
-    @apply mt-2 rounded border;
-  }
+  @apply mt-2 rounded border;
+}

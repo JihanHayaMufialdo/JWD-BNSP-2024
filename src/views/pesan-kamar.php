@@ -126,13 +126,13 @@
                         <p class="pl-2">Hari</p>
                     </div>
                     <div class="my-4 flex items-center">
-                        <label for="durasiMenginap" class="font-semibold text-right pr-4">
+                        <label for="termasukSarapan" class="font-semibold text-right pr-4">
                             Termasuk Sarapan
                         </label>
                         <input 
                             type="checkbox" 
-                            id="durasiMenginap" 
-                            name="durasiMenginap" 
+                            id="termasukSarapan" 
+                            name="termasukSarapan" 
                             class="border"
                         />
                         <p class="pl-2">Ya</p>
