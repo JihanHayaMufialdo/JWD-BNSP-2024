@@ -9,3 +9,7 @@
 .title{
     @apply text-center text-primary text-3xl font-bold uppercase mb-16;
 }
+
+.table-border{
+    @apply border border-blue-950 py-4 px-10;
+}

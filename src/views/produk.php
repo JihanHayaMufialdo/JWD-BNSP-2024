@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../output.css" />
 </head>
 <body class="p-16">
-    <div>
+    <div class="mt-16 text-center">
         <div class="my-16">
             <h1 class="title">
                 Produk Hotel JWD
