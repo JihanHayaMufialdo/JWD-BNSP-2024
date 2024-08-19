@@ -5,3 +5,7 @@
 .text-primary{
     @apply text-blue-950;
 }
+
+.title{
+    @apply text-center text-primary text-3xl font-bold uppercase mb-16;
+}

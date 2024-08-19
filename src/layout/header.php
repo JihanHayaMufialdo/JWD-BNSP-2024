@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="../output.css" />
 </head>
@@ -14,22 +13,22 @@
                 <div class="text-primary font-bold">
                     <ul class="flex justify-star bg-blue-200 px-16">
                         <li class="hover:bg-blue-300 active:bg-blue-400 p-4">
-                            <a href="produk.html">
+                            <a href="../views/produk.php">
                                 Produk
                             </a>
                         </li>
                         <li class="hover:bg-blue-300 active:bg-blue-400 p-4">
-                            <a href="daftar-harga.html">
+                            <a href="../views/daftar-harga.php">
                                 Daftar Harga
                             </a>
                         </li>
                         <li class="hover:bg-blue-300 active:bg-blue-400 p-4">
-                            <a href="tentang-kami.html">
+                            <a href="../views/tentang-kami.php">
                                 Tentang Kami
                             </a>
                         </li>
                         <li class="hover:bg-blue-300 active:bg-blue-400 p-4">
-                            <a href="pesan-kamar.html">
+                            <a href="../views/pesan-kamar.php">
                                 Pesan Kamar
                             </a>
                         </li>
