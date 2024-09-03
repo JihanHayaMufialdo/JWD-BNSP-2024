@@ -28,13 +28,18 @@ function tambah_pesanan($data) {
     $durasiMenginap = $data['durasiMenginap'] ?? '';
     $diskon = $data['diskon'] ?? '';
     $termasukSarapan = isset($data['termasukSarapan']) ? 1 : 0;
-    $totalHarga = $data['totalBayar'] ?? '';
+    $totalHarga = $data['totalHarga'] ?? '';
 
-    $sql = "INSERT INTO data_pesanan (nama, jenisKelamin, nik, id_kamar, tanggalPesan, durasiMenginap, diskon, termasukSarapan, totalHarga) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param('sssiddddd', $nama, $jenisKelamin, $nik, $tipeKamarId, $tanggalPesan, $durasiMenginap, $diskon, $termasukSarapan, $totalBayar);
+    echo $nama;
+    echo $jenisKelamin;
+    echo $nik;
 
-    return $stmt->execute();
+    $sql = "INSERT INTO data_pesanan (nama, jenisKelamin, nik, id_kamar, tanggalPesan, durasiMenginap, diskon, termasukSarapan, totalHarga) 
+            VALUES ('$nama', '$jenisKelamin', '$nik', '$tipeKamarId', '$tanggalPesan', '$durasiMenginap', '$diskon', '$termasukSarapan', '$totalHarga')";
+
+    $result = mysqli_query($conn, $sql);
+
+    return $result;
 }
 
 ?>

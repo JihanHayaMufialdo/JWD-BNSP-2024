@@ -15,12 +15,12 @@
             <h1 class="title">
                 Tentang Kami
             </h1>
-            <div class="flex flex-col items-center justify-center">
+            <div class="flex items-start justify-center">
                 <div class="rounded overflow-hidden shadow-md">
                     <img src="../img/foto-hotel.jpg" alt="Foto Hotel" class="object-cover" width="500" height="367">
                 </div>
 
-                <div class="ml-12 flex items-center text-primary text-md">           
+                <div class="ml-12 flex flex-col items-center text-primary text-md">           
                     <address>
                         <p class="font-semibold">
                             Alamat:

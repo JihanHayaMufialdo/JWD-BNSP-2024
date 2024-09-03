@@ -4,7 +4,7 @@ include '../connect.php';
 include '../controller/controller.php';
 
 $harga = '';
-$totalBayar = '';
+$totalHarga = '';
 $diskon = '';
 $tipeKamarId = '';
 $durasiMenginap = '';
@@ -31,11 +31,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $harga = $row['harga'];
             }
 
-            list($totalBayar, $diskon) = hitung_total($harga, $durasiMenginap, $termasukSarapan);
+            list($totalHarga, $diskon) = hitung_total($harga, $durasiMenginap, $termasukSarapan);
         }
     } elseif (isset($_POST["submit"])) {
         if (tambah_pesanan($_POST)) {
-            echo "<script>alert('Pesanan berhasil ditambah'); window.location.href = 'pesan-kamar.php';</script>";
+            echo "<script>alert('Pesanan berhasil ditambah'); window.location.href = 'tabel-pesanan.php';</script>";
         } else {
             echo "<script>alert('Gagal menambah pesanan');</script>";
         }
@@ -205,15 +205,15 @@ $result = $conn->query($sql);
                             value="<?php echo htmlspecialchars($diskon); ?>"
                         />
                         <div class="my-4 flex items-center">
-                            <label for="totalBayar" class="font-semibold w-1/3 text-right pr-4"> 
+                            <label for="totalHarga" class="font-semibold w-1/3 text-right pr-4"> 
                                 Total Bayar
                             </label>
                             <input
                                 type="number"
-                                id="totalBayar"
-                                name="totalBayar"
+                                id="totalHarga"
+                                name="totalHarga"
                                 class="border w-2/3"
-                                value="<?php echo htmlspecialchars($totalBayar); ?>"
+                                value="<?php echo htmlspecialchars($totalHarga); ?>"
                                 readonly
                             />
                         </div>
